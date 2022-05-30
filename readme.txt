@@ -12,8 +12,11 @@ UnivaPayを使用して、WooCommerceでクレジットカード決済を可能�
 
 == Description ==
 
-旧UnivaPay(legacy)契約者向けのプラグインで新規契約はお受付しておりません。
-詳しくは下記よりお問い合わせください。
+旧UnivaPay(legacy)契約者向けのプラグインです。
+通常の契約者様は下記プラグインをお使いください。
+https://wordpress.org/plugins/univapay-for-wc/
+
+その他お問い合わせは、下記よりお願いいたします。
 https://www.univapay.com/contactus/form/
 
 = Privacy Policy =
