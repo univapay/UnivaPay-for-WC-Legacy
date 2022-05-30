@@ -1,10 +1,10 @@
 === UnivaPay for WooCommerce Legacy ===
 Contributors: yui5m
 Tags: credit card, payment request, woocommerce
-Requires at least: 5.0
-Tested up to: 5.7.2
+Requires at least: 5.2
+Tested up to: 5.9
 Requires PHP: 7.0
-Stable tag: 0.2.9
+Stable tag: 0.3.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,8 +12,8 @@ UnivaPayを使用して、WooCommerceでクレジットカード決済を可能�
 
 == Description ==
 
-UnivaPayを使用して、WooCommerceでVisa、MasterCard、American Express、Discover、JCB、Diners Clubの決済が利用可能になります。
-利用には別途、申込が必要です。
+旧UnivaPay(legacy)契約者向けのプラグインで新規契約はお受付しておりません。
+詳しくは下記よりお問い合わせください。
 https://www.univapay.com/contactus/form/
 
 = Privacy Policy =
