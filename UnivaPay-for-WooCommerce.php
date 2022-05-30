@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: UnivaPay for WooCommerce
+ * Plugin Name: UnivaPay for WooCommerce Legacy
  * Plugin URI: https://univapay.com
  * Description: UnivaPayを使用して店舗でクレジットカード決済が可能です。
  * Author: UnivaPay
