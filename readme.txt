@@ -2,7 +2,7 @@
 Contributors: yui5m
 Tags: credit card, payment request, woocommerce
 Requires at least: 5.2
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 7.0
 Stable tag: 0.3.0
 License: GPLv3
