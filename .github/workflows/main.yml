@@ -1,17 +1,18 @@
-name: Deploy to WordPress.org
-on:
-  push:
-    tags:
-    - "*"
+name: Main
+
+on: push
+
 jobs:
-  tag:
-    name: New tag
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: WordPress Plugin Deploy
-      uses: 10up/action-wordpress-plugin-deploy@stable
-      env:
-        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-        SLUG: univapay-for-wc-legacy
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: tar -cvzf UnivaPay-for-WC-Legacy.tar.gz UnivaPay-for-WC-Legacy/
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            UnivaPay-for-WC-Legacy.tar.gz
