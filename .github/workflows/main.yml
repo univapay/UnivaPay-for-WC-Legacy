@@ -9,10 +9,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build
-        run: tar -cvzf UnivaPay-for-WC-Legacy.tar.gz UnivaPay-for-WC-Legacy/
+        run: zip -0r UnivaPay-for-WC-Legacy.zip UnivaPay-for-WC-Legacy
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            UnivaPay-for-WC-Legacy.tar.gz
+            UnivaPay-for-WC-Legacy.zip
